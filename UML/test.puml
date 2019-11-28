@@ -1,0 +1,16 @@
+@startuml
+
+hide footbox
+
+participant 客户端 as client
+participant 服务端 as server
+
+client ---> server : <b><size:18>发起会话,请求协商密钥
+activate client
+activate server
+client <-- server : <b><size:18>   发送密钥
+deactivate server
+deactivate client
+client --> server
+
+@enduml

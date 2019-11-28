@@ -1,0 +1,91 @@
+{
+       "definitions": {},
+       "$schema": "http://json-schema.org/draft-07/schema#",
+       "$id": "http://example.com/root.json", 
+       "type": "object",
+       "title": "JSON 判题规则",
+       "required": [
+         "score",
+         "knowledge",
+         "param",
+         "baseFile"
+      ],
+      "properties": {
+        "score": {
+          "$id": "#/properties/score",
+          "type": "string",
+          "title": "分值",
+          "pattern": "^[1-9]\\d*\\.[0-9]{1}"
+
+        },
+        "knowledge": {
+          "$id": "#/properties/knowledge",  
+          "type": "string",
+          "title": "知识点编号"
+        },
+        "param": {
+          "$id": "#/properties/param",
+          "type": "object",
+          "title": "知识点参数对象",
+          "required": [
+                    "attribute1"
+                  ],
+          "properties": {
+            "attribute1": {
+              "$id": "#/properties/param/properties/attribute1",
+              "type": "string",
+              "title": "属性值"
+            },
+            "attribute2": {
+              "$id": "#/properties/param/properties/attribute2",
+              "type": "string",
+              "title": "属性值"
+            },
+            "attribute3": {
+                "$id": "#/properties/param/properties/attribute3",
+                "type": "object",
+                "title": "The Attribute3 Schema",
+                "properties": {
+                  "location": {
+                    "$id": "#/properties/location",
+                    "type": "object",
+                    "title": "定位对象"
+                  }
+                }
+              }            
+          }
+        },
+        "location": {
+         "$id": "#/properties/location",  
+          "type": "object",
+          "title": "定位元素对象",
+          "properties": {
+            "lp": {
+              "$id": "#/properties/param/properties/lp",
+              "type": "string",
+              "title": "定义参数"
+            },
+            "ls": {
+              "$id": "#/properties/param/properties/ls",
+              "type": "string",
+              "title": "定义参数"
+            },
+            "lr": {
+            "$id": "#/properties/param/properties/lr",
+            "type": "string",
+             "title": "定义参数"
+           },
+           "lo": {
+            "$id": "#/properties/param/properties/lo",
+             "type": "string",
+             "title": "定义参数"
+           }
+         }
+       },
+       "baseFile": {
+        "$id": "#/properties/baseFile",  
+         "type": "string",
+         "title": "文档文件名"
+       }
+     }
+   }

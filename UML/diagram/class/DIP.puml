@@ -1,0 +1,30 @@
+@startuml
+
+actor 读者 as a1
+actor 工作人员 as a2
+'actor 时间 as a3
+'actor 管理员 as a4
+usecase 预约图书 as u1
+usecase 查询图书信息 as u2
+usecase 查询借阅信息 as u3
+usecase 借书 as u4
+usecase 还书 as u5
+usecase 维护图书信息 as u6
+usecase 维护读者信息 as u7
+'usecase 发送催还信息 as u8
+
+a1 --> u1
+a1 -->u2
+a1 -->u3
+
+u1 <--a2
+u2 <--a2
+u3 <--a2
+a2 --> u4
+a2 --> u5
+a2-->u6
+a2 --u7
+
+
+
+@enduml
