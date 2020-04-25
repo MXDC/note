@@ -35,3 +35,6 @@
 ```
 
 2.json格式，有时候后台需要body传送的是json数据，将Content-Type类型设置为application/json，注意POST请求时data不要序列化
+
+![](https://pq3kbw.ch.files.1drv.com/y4pVImJLLHaQ8JD4o1jP7Yc6mxfU-vvKh8p2_2ACC4j8bDt6UApX3pffY0su3509SA_3wHbtnvpVLu3se3FBZ8OuWGexflBicIwms6SqNd0hyKXuAuyoMoVGU1yltaOY1TsBNRW0vkT4277bJ_NJvCXtgoZrrb4Krc5plsnAjKmykscEWxWNFPiSXP0aCPfsrrjQoNrLpy627h9ya3XIG_0rBTQrt7XLL08I4Lkny1wGlk)
+
