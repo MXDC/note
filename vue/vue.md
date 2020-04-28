@@ -36,11 +36,7 @@ var vm = new Vue({
 
 ##### v-text 和 v-html
 
-<<<<<<< HEAD
 * `{{mgs}}` : 绑定数据,只会替换自己的占位符，会转义输出 
-=======
-* `{{mgs}} `: 绑定数据,只会替换自己的占位符，会转义输出 
->>>>>>> 86b7659abece8e445f157d243c30ba0eb7b8b217
 
 * `v-text = “msg” `: 绑定数据,会覆盖标签里面的内容，,会输出标签
 * `v-html = "msg"`：会解析html标签
@@ -260,12 +256,7 @@ v-if每次都删除创建元素，v-show没有切换display
   ```
 
   
-<<<<<<< HEAD
 在vue中使用内联样式-style四种
-=======
-
-#### 在vue中使用内联样式-style四种
->>>>>>> 86b7659abece8e445f157d243c30ba0eb7b8b217
 
 * 直接在元素上使用:style="object"
 
@@ -291,17 +282,8 @@ v-if每次都删除创建元素，v-show没有切换display
   </script>
   ```
 
-
-
-
-<<<<<<< HEAD
-在`{{}}`和`v-bind`中使用管道 `| `做过滤处理
-=======
->>>>>>> 86b7659abece8e445f157d243c30ba0eb7b8b217
-
 ```html
 <!-- in mustaches -->
-{{ message | capitalize }}
 
 <!-- in v-bind -->
 <div v-bind:id="rawId | formatId"></div>
