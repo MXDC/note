@@ -11,7 +11,7 @@ typora-copy-images-to: media
 
 ```
 
-#### Vue()实例
+#### Vue实例
 
 每个 Vue 应用都是通过用 `Vue` 函数创建一个新的 **Vue 实例**开始的：
 
@@ -35,7 +35,7 @@ var vm = new Vue({
 
 ##### v-text 和 v-html
 
-* {{mgs}} : 绑定数据,只会替换自己的占位符，会转义输出 
+* `{{mgs}} `: 绑定数据,只会替换自己的占位符，会转义输出 
 
 * v-text = “msg” : 绑定数据,会覆盖标签里面的内容，,会输出标签
 * v-html = "msg"：会解析html标签
@@ -191,7 +191,7 @@ v-if每次都删除创建元素，v-show没有切换display
 
 
 
-#### 在vue中使用样式-class(四种)
+#### 在vue中使用样式-class四种
 
 * 用v-bind绑定时，直接传递一个数组，`<div id="app" :class="['italic','red','thin']">`
 
@@ -256,7 +256,7 @@ v-if每次都删除创建元素，v-show没有切换display
 
   
 
-#### 在vue中使用内联样式-style(四种)
+#### 在vue中使用内联样式-style四种
 
 * 直接在元素上使用:style="object"
 
@@ -285,7 +285,6 @@ v-if每次都删除创建元素，v-show没有切换display
 
 
 
-#### 在{{}}和v-bind中使用管道 | 做过滤处理
 
 ```html
 <!-- in mustaches -->
