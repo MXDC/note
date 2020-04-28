@@ -86,37 +86,43 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 >  Manually select features，按空格选择，按回车下一步
 
-![1574319613056](media/1574319613056.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgTktkqVwb0Xn-oYy/root/content)
 
-![1574319730836](media/1574319730836.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgTpv7OT1_GlnwbLz/root/content)
 
 路由模型选择history，选y
 
-![1574319800492](media/1574319800492.png)
+
+
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgT2WoGJPlibrkdLj/root/content)
 
 CSS预处理器选less(ant design使用的是less)
 
-![1574320030847](media/1574320030847.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgTxh4z4p90qtwjjR/root/content)
 
 ESlint编码规范，这里选择ESLint + Prettier
 
-![1574320141562](media/1574320141562.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgT2WoGJPlibrkdLj/root/content)
 
 选择什么时候进行Lint,这里选择Lint and fix on commit
 
-![1574320214960](media/1574320214960.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgT5xfgvaxfANNjeE/root/content)
 
 最后选择一个测试方案，Jest
 
-![1574320273888](media/1574320273888.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgT8CO9huaInTcwp8/root/content)
 
 选择配置文件单独放一个文件（In dedicated config files）
 
-![1574320367560](media/1574320367560.png)
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgUCi-HMK_1tdS7O4/root/content)
 
 是否保存现在的配置为以后的项目使用，Y
 
-![1574320474125](media/1574320474125.png)
+
+
+![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgUG9cmvHd-As7ne_/root/content)
+
+
 
 选择 NPM管理包
 
