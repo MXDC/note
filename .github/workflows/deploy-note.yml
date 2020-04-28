@@ -30,4 +30,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: echo ${{ matrix.node-version }}
     - run: npm install
-    - run: hexo deploy
+    - run: npm install hexo
+    - run: npx hexo deploy
