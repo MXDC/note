@@ -22,8 +22,7 @@ jobs:
     - uses: actions/checkout@v2
       with: 
         repository: MXDC/blog
-        ref: hexo-blog
-        token: 7f5c0398693eb4dcb2216b7f90652fd0699bfb05
+        ref: hexo-note
         submodules: true
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
