@@ -28,6 +28,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+
+    - run: git config --global user.email "1040558191@qq.com"
+    - run: git config --global user.name "MXDC"
+    
     - run: echo ${{ matrix.node-version }}
     - run: npm install
     - run: npm install hexo
