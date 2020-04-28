@@ -33,13 +33,13 @@
 - Factory：抽象工厂
 - ConcreteFactory：具体工厂
 
- ![../_images/FactoryMethod.jpg](media/FactoryMethod.jpg)
+ ![](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgTbPGsGrUoYtNWUD/root/content)
 
 
 
 ## 实例应用
 
-![../_images/loger.jpg](media/loger.jpg)
+![ew](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgTgU3thdrq7tiNTp/root/content)
 
 * 使用工厂方法模式的另一个优点是在系统中加入新产品时，无须修改抽象工厂和抽象产品提供的接口，无须修改客户端，也无须修改其他的具体工厂和具体产品，而只要添加一个具体工厂和具体产品就可以了。这样，系统的可扩展性也就变得非常好，完全符合“开闭原则”。
 
@@ -47,5 +47,5 @@
 
 在很多软件系统中需要更换界面主题，要求界面中的按钮、文本框、背景色等一起发生改变时，可以使用抽象工厂模式进行设计。
 
-![](media/AbatractFactory.jpg)
+![ss](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgTQizNzUFvXA6PBc/root/content)
 
