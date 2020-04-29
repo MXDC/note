@@ -45,5 +45,4 @@ jobs:
     # Use the output from the `deploy` step(use for test action)
     - name: Get the output
       run: |
-        echo .deploy_git/.git/config
         echo "${{ steps.deploy.outputs.notify }}"
