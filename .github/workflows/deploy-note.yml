@@ -11,6 +11,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
+        repository: MXDC/blog
+        branch: hexo-note
         submodules: true # Checkout private submodules(themes or something else).
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
@@ -28,7 +30,7 @@ jobs:
     - name: Deploy
       id: deploy
       run: |
-             echo "${{ secrets.BLOG_DEPLOY }}"
+        #echo "${{ secrets.BLOG_DEPLOY }}"
              cat .git/config
     # Use the output from the `deploy` step(use for test action)
     - name: Get the output
