@@ -27,7 +27,7 @@ jobs:
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
-      run: echo ${{ secrets.DEPLOY_KEY }}
+      run: echo ${{ secrets.BLOG_DEPLOY }}
     # Use the output from the `deploy` step(use for test action)
     - name: Get the output
       run: |
