@@ -27,7 +27,8 @@ jobs:
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
-      run: echo ${{ secrets.BLOG_DEPLOY }}
+      run: echo "${{ secrets.BLOG_DEPLOY }}"
+      run: echo .git/config
     # Use the output from the `deploy` step(use for test action)
     - name: Get the output
       run: |
