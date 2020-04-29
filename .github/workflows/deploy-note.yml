@@ -13,7 +13,6 @@ jobs:
       with:
         repository: MXDC/blog
         ref: hexo-note
-        path: blog
         ssh-key: ${{ secrets.BLOG_DEPLOY }}
         submodules: true # Checkout private submodules(themes or something else).
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
