@@ -12,7 +12,9 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: MXDC/blog
-        branch: hexo-note
+        ref: hexo-note
+        path: blog
+        ssh-key: ${{ secrets.BLOG_DEPLOY }}
         submodules: true # Checkout private submodules(themes or something else).
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
@@ -29,9 +31,9 @@ jobs:
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
+    #echo "${{ secrets.BLOG_DEPLOY }}"
       run: |
-        #echo "${{ secrets.BLOG_DEPLOY }}"
-             cat .git/config
+       cat .git/config
     # Use the output from the `deploy` step(use for test action)
     - name: Get the output
       run: |
