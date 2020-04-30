@@ -1,5 +1,7 @@
 ---
 typora-copy-images-to: media
+categories:
+  - linux
 ---
 
 #### bash shell命令

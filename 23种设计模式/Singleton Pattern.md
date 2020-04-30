@@ -1,3 +1,7 @@
+---
+categories:
+  - 23种设计模式
+---
 
 
 # Singleton Pattern

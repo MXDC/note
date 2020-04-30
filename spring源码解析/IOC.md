@@ -1,3 +1,7 @@
+---
+categories:
+  - spring源码解析
+---
 #### IOC
 
 The `org.springframework.context.ApplicationContext` interface represents the Spring IoC container and is responsible for instantiating, configuring, and assembling the beans. 

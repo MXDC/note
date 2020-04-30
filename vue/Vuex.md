@@ -1,3 +1,7 @@
+---
+categories:
+  - vue
+---
 #### Vuex
 
 ```javascript

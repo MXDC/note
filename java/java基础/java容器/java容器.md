@@ -1,3 +1,9 @@
+---
+categories:
+  - java
+  - java基础
+  - java容器
+---
 #### Map
 
 * get方法调用getNode()，如果返回节点为`null`则返回`null`，否则返回节点的值`e.value` :notes:getOrDefault

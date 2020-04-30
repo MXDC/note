@@ -1,3 +1,7 @@
+---
+categories:
+  - spring源码解析
+---
 #### Spring Boot源码安装
 
 spring framework是基于gradle构建的。而spring boot是基于maven构建的

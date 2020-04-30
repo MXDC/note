@@ -1,6 +1,8 @@
 ---
 title: Hexo搭建个人博客
-tags:hexo,next
+tags:
+  - hexo
+  - Next-Theme
 date: 2020/4/28
 ---
 
@@ -102,7 +104,18 @@ $ git pull
     enable: true
   
   ```
+
+网站[github-ribbons](https://github.blog/2008-12-19-github-ribbons/)和[github-corners](http://tholman.com/github-corners/)有github corner样式。
+可以将样式复制到next主题对应的位置。位置可以通过查找`_config.yml`文件的配置文件关键词进行定位
 实现效果如下所示:
 
 ![github banner](https://api.onedrive.com/v1.0/shares/s!AnfzhZ6EzsFXgUINwX8KysBXdEER/root/content)
 
+2. 添加RSS
+
+`hexo-generator-feed`是`hexo`的一个RSS插件。执行以下命令安装插件。
+
+```npm
+$ npm install hexo-generator-feed --save
+
+```

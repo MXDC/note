@@ -1,3 +1,7 @@
+---
+categories:
+  - 23种设计模式
+---
 ##### 依赖关系（Dependency）
 
 ![](https://imgconvert.csdnimg.cn/aHR0cDovL2ltZy5ibG9nLmNzZG4ubmV0LzIwMTcwMzAyMTkzMzIyMjUw?x-oss-process=image/format,png)

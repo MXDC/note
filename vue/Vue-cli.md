@@ -1,3 +1,7 @@
+---
+categories:
+  - vue
+---
 # vue-cli 脚手架工具
 
 vue-cli 可以做什么(编写好基础代码)：

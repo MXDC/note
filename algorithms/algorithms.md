@@ -1,3 +1,7 @@
+---
+categories:
+  - algorithms
+---
  散列表
 ----
 

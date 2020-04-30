@@ -1,3 +1,7 @@
+---
+categories:
+  - 工具链
+---
 #### Nginx源码安装配置
 ```shell
 # 安装make

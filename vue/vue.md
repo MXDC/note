@@ -1,5 +1,7 @@
 ---
 typora-copy-images-to: media
+categories:
+  - vue
 ---
 
 [img_bed]:https://raw.githubusercontent.com/MXDC/images_bed/master/img/

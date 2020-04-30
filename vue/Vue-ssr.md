@@ -1,3 +1,7 @@
+---
+categories:
+  - vue
+---
 #### Client side render
 
 JavaScript 可以动态的生成页面内容，client side render指的就是前端拿到数据后，才用`JavaScript`动态把内容渲染到网页上。

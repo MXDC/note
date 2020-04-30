@@ -1,3 +1,7 @@
+---
+categories:
+  - spring源码解析
+---
 #### 新建一个gradle模块
 
 在构建的spring framework项目中新建一个gradle模块。

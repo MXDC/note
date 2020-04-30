@@ -1,3 +1,7 @@
+---
+categories:
+  - 23种设计模式
+---
 #  Simple Factory
 
 ## 动机（Motivation）

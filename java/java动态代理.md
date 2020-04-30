@@ -1,5 +1,7 @@
 ---
 typora-copy-images-to: media
+categories:
+  - java
 ---
 
 #### 代理模式

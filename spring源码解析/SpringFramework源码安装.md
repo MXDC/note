@@ -1,3 +1,7 @@
+---
+categories:
+  - spring源码解析
+---
 #### spring framework下载源码
 
 spirng 5.0问题多多搞了一半天没整明天，建议使用5.1和gradle 4.10.3版本，不然问题多多瞎折腾。
